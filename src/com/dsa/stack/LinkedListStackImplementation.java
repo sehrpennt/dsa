@@ -7,7 +7,7 @@ class LinkedListStack{
 		Node next;
 	}
 	public LinkedListStack() {
-		this.head=null;
+		head=null;
 	}
 	
 	public void push(int data) {
