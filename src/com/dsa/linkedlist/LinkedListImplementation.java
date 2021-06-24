@@ -37,6 +37,7 @@ class LinkedLists{
 	}
 	
 	
+	
 	public void insertAt(int index, int data) {
 		Node node = new Node(data);
 		Node current=head;
@@ -95,6 +96,7 @@ public class LinkedListImplementation {
 		list.insertAt(0, 9);
 		list.deleteAt(2);
 		list.show();
+
 	}
 
 }
